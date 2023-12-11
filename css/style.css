@@ -11,7 +11,7 @@ body{
    
 }
 .structure{
-    border: .4em solid rgb(2, 24, 146);
+    border: .4em solid rgb(146, 2, 31);
     border-radius: 20em;
     padding: 2em;
     margin: auto;
@@ -23,13 +23,13 @@ body{
 }
 
 h1,h2{
-    color:  rgb(0, 17, 95);
+    color:  rgb(73, 95, 0);
     font-variant: small-caps;
 }
 footer p{
     
     font-size: 0.8em;
-    color:rgb(0, 13, 70);
+    color:rgb(2, 55, 28);
     
 }
 main{
@@ -144,7 +144,7 @@ nav a{
     font-size: 1.5em;
     padding: 0 3em; 
     color: rgb(0, 24, 133); 
-    font-weight: bold; 
+    font-weight: lighter; 
 
     text-decoration: none; 
     
@@ -165,10 +165,10 @@ nav ul li ul {
 }
 nav ul li:hover ul{
     display: block; 
-    border: .1em solid rgb(0, 24, 133);
+    border: .1em solid rgb(0, 131, 133);
 }
 nav ul li a:hover{
-    color: white;
+    color: rgb(237, 139, 139);
     border: .3em solid rgb(0, 24, 133);
     background-color: rgb(0, 24, 133);
     margin: 1em;
@@ -179,17 +179,17 @@ nav ul li a:hover{
 }
 nav ul li a{
     margin: 1em;
-    border: .3em solid rgb(0, 24, 133);
+    border: .3em solid rgb(129, 0, 133);
     
 }
 
 nav ul li ul { 
-	width: 150%; 
+	width: 180%; 
     text-align: left; 
 	position: absolute; 
-    background-color: rgb(0, 24, 133); 
+    background-color: rgb(133, 80, 0); 
     z-index: 1000; 
-    box-shadow: 0 0 .3em rgb(0, 24, 133); 
+    box-shadow: 0 0 .3em rgb(4, 133, 0); 
 }
 
 nav ul li ul li a{ 
@@ -200,7 +200,7 @@ nav ul li ul li a{
 }
 
 nav ul li ul li a:hover{
-    color:rgb(0, 24, 133); 
+    color:rgb(133, 0, 129); 
     background-color: white; 
     
 }
